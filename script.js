@@ -30,7 +30,7 @@ const se = confirm(cars)
 if (w === "YES",'Yes','yes') {
     const s = prompt("Выберите номер машины от 1 до 20") ;
     const car = cars[s].split("; ");
-    console.log(`Имя: ${name}\n Модель ${car[0]}\n Цена ${car[1]}\n Год ${car[2]}\n Пробег ${car[3]}\n Хотите купить эту машину? (да/нет)`);
+    console.log(`Имя: ${name}\n Модель ${car[0]}\n Цена ${car[1]}\n Год ${car[2]}\n Пробег ${car[3]}\n `);
 }else{
     alert('Спасибо за интерес!')
 }
